@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Personal Portfolio Website - Easy Tutorials</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<body>
+
+  <header class="header">
+  <div class="container">
+      <a href="#" class="logo"> Ami</a>
+
+    <nav class="navbar">
+      <a href="#" class="active">Home</a>
+      <a href="#">About</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+  </nav>
+  </div>
+</header>
+<section>
+  <section class="home">
+  <img src="c:\Users\HP\OneDrive\Desktop\Portfolio\jeng.png" class="jeng">
+  <div class="home-content">
+    <h1>Hello, I'm Syamimie</h1>
+    <h3>Multimedia Student</h3>
+    <p>I'm 21 year's old. I'm from Bachok Kelantan.</p>
+    <div class="btn-box">
+      <a href="#">Hire Me</a>
+      <a href="#">Let's Talk</a>
+    </div>
+      <span class="home-imgHover"></span>
+  </section>
+  </div>
+  <div class="about-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+  <br>
+  <br>
+  <br>
+  <div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1"></div>
+				<img src="portfolio/photoo.png">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p> An energetic, knowledge crave,happy go lucky
+				student with vast knowledge in Graphic Design.
+				My goal is to learn as much as possible, listen and
+				actioning using available tools and resources.</P>
+				
+				<div class="tab-title">
+				<a href="#"tab-links active-link">Skills</a>
+				<a href="#"tab-links active-link">Experience</a>
+				<a href="#"tab-links active-link">Education</a>
+           </div
+		   <div class="Skills">
+			<ul>
+				<li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+				<li><span>Web Development</span><br>Web App Development</li>
+				<li><span>App Development</span><br>Building Android/ios apps</li>
+			  </ul>
+		 </div>
+	   </div> 
+	 </br>
+	 </br>
+	 </br>
+   </div>
+   <div id="portfolio">
+	<div class="container">
+		<h1 class="sub-title">My project</h1>
+		<div class="project-list">
+			<div class="project">
+					<img src="Portfolio/work2.jpeg">
+					<div class="layer">
+					<h3>Social Media App</h3>
+					<p>The app connects you to the talented people around the world.
+					Download it from play store.</p>
+					<a href="#"><i class="fas fa-external-link-alt"></i></a>
+				</div>
+				<div class="project">
+					<img src="Portfolio/project1.png">
+					<div class="layer">
+					<h3>Animation Project</h3>
+					<p>The app connects you to the talented people around the world.
+					Download it from play store.</p>
+					<a href="#"><i class="fas fa-external-link-alt"></i></a>
+				</div>
+				<div class="project">
+					<img src="Portfolio/gmbar.png">
+					<div class="layer">
+					<h3>Cinema Night Project</h3>
+					<p>The app connects you to the talented people around the world.
+					Download it from play store.</p>
+					<a href="#"><i class="fas fa-external-link-alt"></i></a>
+				</div>
+			  </div>
+			</div>
+			<a href="#">See more</a>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<div id="contact">
+		<div class="container">
+		 <div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fas fa-paper-plane"></i> syamimieyazih@gmail.com</p>
+				<p><i class="fas fa-phone-square-alt"></i>01129653541</p>
+				<div class="social-icons">
+					<a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-gmail"></i></a>
+				</div>
+				 <a href="portfolio/my-cv.pdf" Download class="btn btn2">Download CV</a>
+			</div>
+			<div class="contact-right">
+				<form>
+				<div class="input-box">
+					<input type="text" name="Name" placeholder="Your Name" required>
+					<input type="email" name="email" placeholder="Your Email" required>
+					<input type="Message" rows="6" placeholder="Your Message"></ textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>
+			</div>
+	</div>
+	 <div class="contact-right">
+	<form name="submit-to-google-sheet">
+	   </div>
+	   </br>
+	   </br>
+	   </br>
+	<br>
+	<br>
+ <div class="copyright">
+ <P>Copyright © Syamimie. Made with <i class="fas fa-heart"></i> by Easy Tutorial</p>
+ </br>
+ </br>
+ </div>
+</div>
+
+
+<script>
+
+	var tablinks = document.getElementsByClassName("tab-links");
+	var tablecontents = document.getElementsByClassName("tab-contents");
+	
+	function opentable(tabname){
+		for(tablelink of tablinks){
+			tablink.classList.remove("active-tab");
+			
+			}
+			for(tabcontent of tabcontents){
+				tabcontent.claaList.add("active-link");
+			}
+			event.currentTarget.classList.add("active-link");
+			document.getElementById(tabname).classList.add("active-tab");
+		}
+		
+	</script>
+	
+	<script>
+	
+		var sidemeu = document.getElementById("sidemenu");
+		
+		function openmenu(){
+			sidemeu.style.right = "0";
+		}
+		function closemenu(){
+			sidemeu.style.right = " -200px";
+		}
+		
+	</script>
+	<script>
+		const scriptURL = 'https://script.google.com/macros/s/
+		AKfycbz4tHsegzDxZ2KT6AwzZb1TU31mvM6iRABt7dATwh11niir2Ssp-dZPzeiyfrawEk6p/exec'
+		const form = document.forms[ 'submit-to-google-sheet']
+		const msg = document.getElementById("msg")
+		form.addEventListener('submit', e => {
+			e.preventDefault()
+			fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+				.then(response => {
+					msg.innerHTML = "Message sent successfully"
+					setTimeout(function(){
+						msg.innerHTML = ""
+			  },5000)
+			  form.reset()
+				.catch(error => console.error('Error!', error.message))
+			})
+		   </script>
+		
+
+ </section>
+ 
+ 
+ </body>
+ 
+ </html>
